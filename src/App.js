@@ -91,6 +91,7 @@ function App() {
     <div style={{ backgroundColor: bgColor, height: "100vh" }}>
       {componentData.map((comp) => (
         <a
+          target="_blank"
           key={comp["key"]}
           href={comp["href"]}
           style={{
